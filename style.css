@@ -30,7 +30,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #111111 0%, #d4af377c 100%);
+    background: linear-gradient(135deg, #111111 0%, #d4af374f 100%);
     color: var(--text);
 }
 
@@ -330,7 +330,7 @@ body {
 .contact textarea {
     background: #1a1a1a;
     color: #ffffff;
-    border: 1px solid #333333;
+    border: 1px solid var(--text);
     padding: 0.75rem;
     border-radius: 0.25rem;
     font-size: var(--text-base);
