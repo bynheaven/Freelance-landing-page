@@ -16,6 +16,10 @@
     --text-3xl: clamp(2.4rem, 6vw, 3.6rem);
 }
 
+body {
+    background-color: linear-gradient(135deg, #d4af37 0%, #111111 100%);
+    color: var(--text);
+}
 
 
 .navbar {
@@ -25,6 +29,12 @@
     padding: 1rem 2rem;
     background-color: var(--bg);
     color: var(--text);
+}
+
+.navbar__logo {
+    font-size: var(--text-lg);
+    font-weight: 900;
+    color: #d4af37;
 }
 
 .navbar__links {
