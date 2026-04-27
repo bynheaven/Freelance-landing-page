@@ -29,7 +29,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #d4af37 0%, #111111 100%);
+    background: linear-gradient(135deg, #111111 0%, #d4af37 100%);
     color: var(--text);
 }
 
@@ -173,6 +173,13 @@ body {
 
 .project-6 {
     grid-area: project-6;
+}
+
+.project__title {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    margin-bottom: 48px;
+    color: #d4af37;
 }
 
 .project__card {
