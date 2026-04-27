@@ -80,7 +80,7 @@ body {
     font-size: var(--text-3xl);
     font-weight: 900;
     line-height: 1.2;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     color: #d4af37;
 }
 
@@ -284,4 +284,77 @@ body {
 .testimonial-card__role {
     font-size: var(--text-sm);
     color: #aaaaaa;
+}
+
+.contact {
+    padding: 96px 48px;
+    border-top: 1px solid #222222;
+}
+
+.contact__title {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    color: #d4af37;
+    margin-bottom: 16px;
+}
+
+.contact__text {
+    color: #aaaaaa;
+    margin-bottom: 24px;
+}
+
+.contact__link {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: 700;
+    transition: opacity 0.3s;
+}
+
+.contact__link:hover {
+    opacity: 0.7;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    max-width: 500px;
+}
+
+.contact input,
+.contact textarea {
+    background: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #333333;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: var(--text-base);
+    transition: border-color 0.2s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #d4af37;
+}
+
+.contact button {
+    background: #d4af37;
+    color: #0a0a0a;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    font-size: var(--text-base);
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.contact button:hover {
+    opacity: 0.85;
 }
