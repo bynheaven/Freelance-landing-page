@@ -116,6 +116,7 @@ body {
     font-weight: 900;
     margin-bottom: 48px;
     color: #d4af37;
+    text-align: center;
 }
 
 .services__grid {
@@ -182,6 +183,7 @@ body {
     font-weight: 900;
     margin-bottom: 48px;
     color: #d4af37;
+    text-align: center;
 }
 
 .project__card {
@@ -294,7 +296,7 @@ body {
 .contact__title {
     font-size: var(--text-2xl);
     font-weight: 900;
-    color: #d4af37;
+    color: var(--text);
     margin-bottom: 16px;
 }
 
