@@ -5,8 +5,8 @@
 }
 
 :root {
-    --bg: #ffffff;
-    --text: #111111;
+    --bg: #111111;
+    --text: #f0f0f0;
     --accent: #d4af37;
     --text-sm: clamp(0.8rem, 1.5vw, 1.2rem);
     --text-base: clamp(0.9rem, 2vw, 1.35rem);
@@ -16,13 +16,7 @@
     --text-3xl: clamp(2.4rem, 6vw, 3.6rem);
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg: #0a0a0a;
-        --text: #f0f0f0;
-        --accent: #d4af37;
-    }
-}
+
 
 .navbar {
     display: flex;
@@ -63,6 +57,7 @@
     font-weight: 900;
     line-height: 1.2;
     margin-bottom: 24px;
+    color: #d4af37;
 }
 
 .hero__subtitle {
