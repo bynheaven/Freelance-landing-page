@@ -30,7 +30,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #111111 0%, #d4af37 100%);
+    background: linear-gradient(135deg, #111111 0%, #d4af377c 100%);
     color: var(--text);
 }
 
@@ -50,9 +50,10 @@ body {
     color: #d4af37;
 }
 
-.navbar__links {
+.navbar__links ul {
     display: flex;
     gap: 2rem;
+    list-style: none;
 }
 
 .navbar__links a {
