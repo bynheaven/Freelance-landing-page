@@ -128,7 +128,7 @@ body {
     border-radius: 16px;
     padding: 32px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 16px;
     transition: border-color 0.3s;
 }
