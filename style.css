@@ -296,17 +296,17 @@ body {
 .contact__title {
     font-size: var(--text-2xl);
     font-weight: 900;
-    color: var(--text);
+    color: var(--accent);
     margin-bottom: 16px;
 }
 
 .contact__text {
-    color: #aaaaaa;
+    color: var(--text);
     margin-bottom: 24px;
 }
 
 .contact__link {
-    color: #d4af37;
+    color: var(--accent);
     text-decoration: none;
     font-weight: 700;
     transition: opacity 0.3s;
