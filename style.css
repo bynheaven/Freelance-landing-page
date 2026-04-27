@@ -5,6 +5,7 @@
 }
 
 :root {
+    font-family: 'Exo 2', sans-serif;
     --bg: #111111;
     --text: #f0f0f0;
     --accent: #d4af37;
@@ -206,4 +207,27 @@ body {
     color: #aaaaaa;
     line-height: 1.6;
     flex: 1;
+}
+
+.project-card__link {
+    background-color: #d4af37;
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 14px 32px;
+    border-radius: 4px;
+    transition: opacity 0.3s;
+}
+
+.project-card__link:hover {
+    opacity: 0.8;
+    color: #d4af37;
+    background-color: #0a0a0a;
+}
+
+.exo-2 {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
