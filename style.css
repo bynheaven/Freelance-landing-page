@@ -24,6 +24,10 @@
     }
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background: linear-gradient(135deg, #d4af37 0%, #111111 100%);
     color: var(--text);
@@ -121,7 +125,7 @@ body {
 .service__card {
     background-color: #111111;
     border: solid #222222;
-    border-radius: 8px;
+    border-radius: 16px;
     padding: 32px;
     display: flex;
     flex-direction: column;
