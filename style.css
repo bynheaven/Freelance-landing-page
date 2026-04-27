@@ -83,3 +83,57 @@ body {
     color: #aaaaaa;
     margin-bottom: 40px;
 }
+
+.hero__button {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #0a0a0a;
+    font-size: var(--text-base);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 14px 32px;
+    border-radius: 4px;
+    transition: opacity 0.3s;
+    align-self: flex-start;
+}
+
+.hero__button:hover {
+    opacity: 0.8;
+}
+
+.services {
+    padding: 96px 48px;
+}
+
+.services__title {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    margin-bottom: 48px;
+    color: #d4af37;
+}
+
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+.service__card {
+    background-color: #111111;
+    border: solid #222222;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: border-color 0.3s;
+}
+
+.service__card:hover {
+    border-color: #d4af37;
+}
+
+.service-card__title {
+    font-size: var(--text-xl);
+    font-weight: 700;
+}
